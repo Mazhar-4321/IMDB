@@ -5,7 +5,7 @@ import models.Movie;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Component
 public class MovieService implements interfaces.MovieService {
     private List<Movie> movieList= new ArrayList<>();
 
